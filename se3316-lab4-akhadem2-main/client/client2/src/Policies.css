@@ -1,0 +1,133 @@
+
+   
+   /*profile css*/
+   .profile-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-info span {
+    font-size: 18px;
+    color: #333;
+  }
+
+
+  /* General css for page*/
+
+#policies-page .admin-panel, 
+#policies-page .policy-viewer, 
+#policies-page .dmca-form {
+    margin-top: 35px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#policies-page .admin-panel textarea, 
+#policies-page .dmca-form textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+#policies-page button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+#policies-page button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/*DMCA INSTRUCTIONS CSS*/
+.DMCAInstruct {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 40px;
+}
+
+.DMCAInstruct h1 {
+  color: #333;
+  font-size: 2em;
+}
+
+.DMCAInstruct h2 {
+  color: #666;
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+
+.DMCAInstruct p, .DMCAInstruct ol, .DMCAInstruct ul {
+  color: #999;
+  font-size: 1em;
+  line-height: 1.5;
+  margin-top: 0.5em;
+}
+
+.DMCAInstruct ol, .DMCAInstruct ul {
+  padding-left: 20px;
+}
+
+
+
+
+/*Admin DMCA css*/
+#AdminDMCA {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+#AdminDMCA h1 {
+  text-align: center;
+  color: #333;
+}
+
+#AdminDMCA label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#AdminDMCA input, #AdminDMCA select, #AdminDMCA textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+#AdminDMCA button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#AdminDMCA button:hover {
+  background-color: #0056b3;
+}

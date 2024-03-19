@@ -1,0 +1,99 @@
+body{
+    background-color: lightskyblue;
+}
+#results{
+    background-color: rgb(165, 192, 239);
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 40px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.title1{
+    text-align: center;
+}
+.subtitle{
+    text-align: center;
+}
+.listhead{
+    text-align: center;
+}
+.listp{
+    text-align: center;
+}
+.listsdiv{
+    display: inline-flex;
+}
+.findList{
+    margin-left: 100px;
+}
+.makeList{
+    margin-left: 200px;
+}
+
+#listDisplay{
+    background-color: rgb(165, 192, 239);
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 40px;
+}
+ th{
+    font-weight: bold;
+    text-decoration: underline;
+}
+table tr{
+    border-bottom: 1px solid black;
+
+}
+table tr:last-child {
+    border-bottom: none;
+}
+
+ td{
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    align-self: center;
+    
+}
+#publisher{
+    margin-bottom: 20px;
+
+}
+#publisherresults{
+    border: 2px solid black;
+    background-color: white;
+    display: none;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+#number{
+    width: 3%;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(77, 137, 242);
+}
+th{
+    background-color: rgb(65, 83, 242);
+}
+
+table tr:hover {
+    background-color: #ddd;
+}

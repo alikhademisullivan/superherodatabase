@@ -1,0 +1,167 @@
+.authenticated-page-container form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .authenticated-page-container label {
+    margin-bottom: 10px;
+  }
+  
+  .authenticated-page-container input, select {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .authenticated-page-container button {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    flex-grow: 1;
+
+  }
+  
+  
+
+
+  /* Links css */
+
+  .authenticated-page-container .nav-link {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000;
+    background-color: #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .authenticated-page-container .nav-link:hover {
+    background-color: #bbb;
+  }
+
+
+
+   /*profile css*/
+   .authenticated-page-container .profile-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .authenticated-page-container .profile-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .authenticated-page-container .profile-info span {
+    font-size: 18px;
+    color: #333;
+  }
+
+  
+  
+  /* Modal styles */
+  .authenticated-page-container .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .authenticated-page-container .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .authenticated-page-container .modal label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .authenticated-page-container .modal input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .authenticated-page-container .modal .buttondiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Added margin */
+  }
+
+  /*table css*/
+
+  .authenticated-page-container .hero-lists-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .authenticated-page-container .hero-lists-table th,
+  .authenticated-page-container .hero-lists-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .authenticated-page-container .hero-lists-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .authenticated-page-container .hero-lists-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .nav-link {
+      width: 30%;
+    }
+    .authenticated-page-container form {
+      max-width: 100%; /* Adjusted for smaller screens */
+      padding: 10px;
+    }
+  
+    .authenticated-page-container .nav-link {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .authenticated-page-container .profile-info {
+      position: static;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  
+    .authenticated-page-container .hero-lists-table th,
+    .authenticated-page-container .hero-lists-table td {
+      font-size: 7px;
+      padding: 2px;
+    }
+    .public-hero-lists .hero-lists-table button {
+      font-size: 6px; 
+      padding: 5px;
+    }
+  
+    .authenticated-page-container .modal {
+      max-width: 100%; 
+    }
+  }
